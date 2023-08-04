@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+ 
+  <!-- Add your CSS link here -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+    }
+    .d-flex{gap:20px}
+
+    /* Navbar styles */
+    .navbar {
+      background-color: #4710ac;
+      color: #fff;
+      padding: 10px 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px; /* Added padding to the container */
+    }
+
+    .navbar-brand {
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+    }
+
+    .navbar-menu {
+      list-style: none;
+      display: flex;
+      margin: 0; /* Remove default margin */
+    }
+
+    .navbar-menu li {
+      margin-right: 20px;
+    }
+
+    .navbar-menu li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+        
+<img src="movies.png" height="80"width="80">
+      <a href="#" class="navbar-brand">Movie Website</a>
+    <style> 
+
+.navbar-brand {
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  color: #9884a3; /* Your desired font color */
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow properties: horizontal offset, vertical offset, blur radius, and shadow color */
+}
+</style> 
+      <ul class="navbar-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Drama</a></li>
+        <li><a href="#">Concert</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Welcome to Movie Website</h1>
+      <p>Discover the latest movies,concerts and dramas and book tickets for your favorite ones.</p>
+      <a href="#" class="btn btn-primary">Explore Now</a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Featured Movies</h2>
+    <div class="movie-grid d-flex">
+       
+              <!-- Movie Card 1 -->
+              <div class="movie-card">
+                <img src="movie1.jpg" alt="Movie 1"width="300" height="400">
+                <h3>Movie 1</h3>
+                <p>Description of Movie 1</p>
+              </div>
+
+          
+              <!-- Movie Card 2 -->
+              <div class="movie-card">
+                <img src="movie2.jpg" alt="Movie 2"width="300" height="400">
+                <h3>Movie 2</h3>
+                <p>Description of Movie 2</p>
+              </div>
+
+              <div class="movie-card">
+                <img src="movie3.jpg" alt="Movie 2"width="300" height="400">
+                <h3>Movie 2</h3>
+                <p>Description of Movie 2</p>
+              </div>
+              <div class="movie-card">
+                <img src="movie4.jpg" alt="Movie 2"width="300" height="400">
+                <h3>Movie 2</h3>
+                <p>Description of Movie 2</p>
+              </div>
+              
+               
+              
+          
+              <!-- Add more movie cards here as needed -->
+            </div>
+          </div>
+
+          <div class="container">
+    
+    <div class="movie-grid d-flex">
+       
+              <!-- Movie Card 1 -->
+              <div class="movie-card">
+                <img src="movie5.jpg" alt="Movie 1"width="300" height="400">
+                <h3>Movie 1</h3>
+                <p>Description of Movie 1</p>
+              </div>
+
+          
+              <!-- Movie Card 2 -->
+              <div class="movie-card">
+                <img src="movie6.jpg" alt="Movie 2"width="300" height="400"
+                <h3>Movie 2</h3>
+                <p>Description of Movie 2</p>
+              </div>
+
+              <div class="movie-card">
+                <img src="movie7.jpg" alt="Movie 2"width="300" height="400">
+                <h3>Movie 2</h3>
+                <p>Description of Movie 2</p>
+              </div>
+              <div class="movie-card">
+                <img src="movie8.jpg" alt="Movie 2"width="300" height="400">
+                <h3>Movie 2</h3>
+                <p>Description of Movie 2</p>
+              </div>
+              
+               
+              
+          
+              <!-- Add more movie cards here as needed -->
+            </div>
+          </div>
+          
+
+    <h2>Book your tickets</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="message">CinemaHall</label>
+        <textarea id="message" class="form-control" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Pay for the ticket</button>
+    </form>
+    <style>
+    /* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #4710ac; /* Purple background */
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+  background-color: #8c6ff7; /* Lighter purple background */
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.jumbotron .btn-primary {
+  background-color: #4710ac; /* Purple button */
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #2c0c7f; /* Darker purple on hover */
+}
+
+/* Button styles */
+.btn {
+  background-color: #4710ac; /* Purple button */
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+</style>
+  </div>
+
+
+
+
+
+      
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
